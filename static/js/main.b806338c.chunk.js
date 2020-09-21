@@ -446,7 +446,7 @@
                             WDS_SOCKET_HOST: void 0,
                             WDS_SOCKET_PATH: void 0,
                             WDS_SOCKET_PORT: void 0
-                        }).REACT_APP_SYNC_SERVER_ADDRESS || "localhost:8081");
+                        }).REACT_APP_SYNC_SERVER_ADDRESS || "socket.axothic.com:2442");
                         S(!0), n.on("connect", (function () {
                             n.emit("join", a)
                         })), n.on("gameStateUpdate", (function (n) {
